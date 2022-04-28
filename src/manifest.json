@@ -61,7 +61,19 @@
 		"usingComponents": true
 	},
 	"mp-alipay" : {
-        "usingComponents" : true
+		"usingComponents": true,
+		"component2": true,
+		"enableAppxNg": true,
+		"plugins": {
+			"subscribeMsg": {
+				"version": "*",
+				"provider": "2021001155639035"
+			},
+			"xlightPlugin": {
+				"version": "*",
+				"provider": "2021001192652032"
+			}
+		}
     },
     "mp-baidu" : {
         "usingComponents" : true
